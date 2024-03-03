@@ -1,0 +1,70 @@
+.card {
+    position: relative;
+    height: 58vh;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 7px solid turquoise;
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    padding: 2.4vh;
+  }
+  
+  .imagenCard {
+    max-height: 30vh;
+    max-width: 90vw;
+    border-bottom: 7px solid turquoise;
+  }
+  
+  .raw {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    gap: 1rem;
+  }
+  
+  .button {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: greenyellow;
+    color: black;
+    border: 0.6vw solid greenyellow;
+    border-radius: 0.6vw;
+    max-width: 30vw;
+    margin-bottom: 1vh;
+  }
+  
+  .button span {
+    margin-left: 0.5vw;
+  }
+  
+  .textCard {
+    justify-content: left;
+    align-items: left;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+  }
+  
+  .buttonContainer {
+    position: absolute;
+    bottom: 0rem;
+    right: 0.5rem;
+  }
+  

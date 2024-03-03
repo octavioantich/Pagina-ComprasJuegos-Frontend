@@ -1,0 +1,65 @@
+.buttonConfirmarCompra{
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 22%;
+}
+
+.text{
+    color:black;
+    margin-bottom: 20px;
+}
+
+.espacio {
+    width: 200px;
+    float: right;
+}
+
+  
+
+.buttonRealizarCompra{
+    align-content: right;
+    margin-top: 10%;
+    margin-left: 30%;
+    color: black;
+    background: rgb(50, 253, 108);
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.buttonVerificarUsuario{
+    align-content: center;
+    margin-top: 10%;
+    color: white;
+    background: midnightblue;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.modal{
+    padding: 10%;
+}
+
+.toast{
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 100% !important;
+}
+
+.toastBody{
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: black;
+}
+
+.centrador {
+    display: flex;
+    justify-content: center;
+  }
+  

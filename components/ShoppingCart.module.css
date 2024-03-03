@@ -1,0 +1,27 @@
+.cart{
+    border-radius: 1vh;
+}
+
+.cartTitle{
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.table{
+    gap: 20%;
+}
+
+.div{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-top: 0.02vw solid grey;
+    border-bottom: 0.02vw solid grey;
+}
+
+.totalPrice{
+    margin-top: 5%;
+    margin-left: 7%;
+}
+

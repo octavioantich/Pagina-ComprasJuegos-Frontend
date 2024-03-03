@@ -1,0 +1,93 @@
+.container {
+  padding: 5%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  border: 7px solid turquoise;
+  background: black;
+  border-radius: 2.22vw;
+  padding-bottom: 10%;
+}
+
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  width: 100%;
+}
+
+.customIndicators {
+  position: absolute;
+  bottom: 0.5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.customIndicators li {
+  margin: 0 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  border: 0.5px solid black;
+}
+
+.customIndicators li.active {
+  background-color: turquoise;
+}
+
+.cardPrice {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.carta {
+  width: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carta-container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carouselNextIcon {
+  position: absolute;
+  top: 50%;
+  right: -4vw;
+  transform: translateY(-50%);
+  font-size: 4rem;
+  color: turquoise;
+  cursor: pointer;
+}
+
+.carouselPrevIcon {
+  position: absolute;
+  top: 50%;
+  left: -4vw;
+  transform: translateY(-50%);
+  font-size: 4rem;
+  color: turquoise;
+  cursor: pointer;
+}
+
+.imgMaxSize {
+  width: 500px;
+  height: 300px;
+  max-width: 79vw;
+  max-height: 49vh;
+}

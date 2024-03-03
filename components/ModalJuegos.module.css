@@ -1,0 +1,16 @@
+.buttom{
+    display: inline-block;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
+    background: greenyellow;
+    color: black;
+    border: 0.6vw solid greenyellow;
+    border-radius: 0.6vw;
+    max-width: 30vw;
+    margin-bottom: 1vh;
+}
+.messageModal .modal-body {
+    color: black;
+  }
+  
